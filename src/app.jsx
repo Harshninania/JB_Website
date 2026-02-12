@@ -7,6 +7,7 @@ import Landing from "./components/landing";
 import Navbar from "./components/navbar";
 import OtherFacilities from "./components/otherFacilities";
 import TeamSection from "./components/team/teamSection";
+import ResidentsCorner from "./components/residentsCorner";
 
 export default function App() {
 	const [pageLoaded, setPageloaded] = useState(false);
@@ -26,8 +27,9 @@ export default function App() {
 				<Facilities />
 				{/* <OtherFacilities /> */}
 				<TeamSection />
-				<Gallery />
-				<Footer />
+<ResidentsCorner />  {/* Added after Meet the Team */}
+<Gallery />
+<Footer />
 			</React.Fragment>
 		)
 	);
