@@ -5,32 +5,42 @@ import Footer from "./components/footer";
 import Gallery from "./components/gallery";
 import Landing from "./components/landing";
 import Navbar from "./components/navbar";
-import OtherFacilities from "./components/otherFacilities";
 import TeamSection from "./components/team/teamSection";
 import ResidentsCorner from "./components/residentsCorner";
 
 export default function App() {
-	const [pageLoaded, setPageloaded] = useState(false);
+
+	const [pageLoaded, setPageLoaded] = useState(false);
 
 	useEffect(() => {
-		setPageloaded(true);
+		setPageLoaded(true);
 	}, []);
-
 
 	return (
 		pageLoaded && (
-			<React.Fragment>
+			<>
 				<Navbar />
+
 				<Landing />
-				<div className="landingDiv"/>
-				{/* <About /> */}
+
+				{/* About Section */}
+				<About />
+
+				{/* Facilities Slider */}
 				<Facilities />
-				{/* <OtherFacilities /> */}
+
+				{/* Team */}
 				<TeamSection />
-<ResidentsCorner />  {/* Added after Meet the Team */}
-<Gallery />
-<Footer />
-			</React.Fragment>
+
+				{/* Residents Corner */}
+				<ResidentsCorner />
+
+				{/* Gallery */}
+				<Gallery />
+
+				{/* Footer */}
+				<Footer />
+			</>
 		)
 	);
 }
