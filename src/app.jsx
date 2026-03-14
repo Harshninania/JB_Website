@@ -6,7 +6,7 @@ import Gallery from "./components/gallery";
 import Landing from "./components/landing";
 import Navbar from "./components/navbar";
 import TeamSection from "./components/team/teamSection";
-import ResidentsCorner from "./components/residentsCorner";
+
 
 export default function App() {
 
@@ -33,7 +33,7 @@ export default function App() {
 				<TeamSection />
 
 				{/* Residents Corner */}
-				<ResidentsCorner />
+				
 
 				{/* Gallery */}
 				<Gallery />
