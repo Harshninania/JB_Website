@@ -64,11 +64,9 @@ export default function Footer() {
 				<div className="social-section" style={{ marginTop: '40px' }}>
 					<h2 className="social-heading">Follow Us</h2>
 					<div className="social-icons">
-						<a href="#" className="twitter" aria-label="Twitter"><FaTwitter /></a>
-						<a href="#" className="facebook" aria-label="Facebook"><FaFacebookF /></a>
+						
 						<a href="https://www.bing.com/ck/a?!&&p=aaab12a27819509e7aa896baba98b67955afc1ecef1864f2dfca9ea7a5e1ddfaJmltdHM9MTc3MzI3MzYwMA&ptn=3&ver=2&hsh=4&fclid=29285e28-a61a-6bc7-3fc1-4aeda7e86a52&psq=jawahar+iit+instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9qYXdhaGFyYmhhd2FuX2lpdHIv" className="instagram" aria-label="Instagram"><FaInstagram /></a>
-						<a href="#" className="linkedin" aria-label="LinkedIn"><FaLinkedinIn /></a>
-						<a href="#" className="youtube" aria-label="YouTube"><FaYoutube /></a>
+						
 					</div>
 				</div>
                 
